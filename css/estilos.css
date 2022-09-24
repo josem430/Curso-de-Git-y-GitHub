@@ -21,3 +21,15 @@ p{
     width: 70%;
     margin: auto;
 }
+
+#cabecera ul {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    margin: 30px;
+}
+
+
+#cabecera ul li{
+    margin: 30px;
+}
