@@ -41,5 +41,8 @@ p{
 
 
 #menu ul li{
+    font-style: italic;
     margin: 10px;
+    color: rgb(255, 0, 0);
+    
 }
