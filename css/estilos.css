@@ -16,8 +16,30 @@ p{
     font-size: 30px;
 }
 
+
 #container{
     border: 1px solid black;
     width: 70%;
     margin: auto;
+}
+
+#cabecera{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#logo{
+    margin: auto;
+}
+
+#menu ul {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    margin: 30px;
+}
+
+
+#menu ul li{
+    margin: 30px;
 }
