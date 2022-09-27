@@ -64,3 +64,53 @@ p{
 #div_info p{
     margin: 20px;
 }
+
+
+.menu-hamburguesa  {
+    display: none;
+   
+}
+
+.barra{
+    border: solid 1px rgb(58, 72, 194);
+    margin: 3px;
+    width: 30px;
+    height: 2px;
+    background-color: rgb(58, 72, 194);
+}
+
+@media screen and (max-width: 768px) {
+    .menu-hamburguesa {
+        display: block;
+        height: 50px;
+        float: right;
+        width: 30px;
+        line-height: 50px;
+        font-size: 30px;
+        cursor: pointer;
+        position: absolute;
+        right: 100px;
+    }
+
+    #menu{
+        display:none ;
+        position: absolute;
+        top: 70px;
+        width: 100%;
+        right: 0;
+    }
+
+    #menu ul{
+        display: block ;
+        background-color: rgb(135, 183, 228);
+        width: 100%;
+        border-end-end-radius: 20px;
+        border-end-start-radius: 20px;
+    }
+
+    #menu ul li{
+        color: rgb(62, 57, 133);
+        font-size: 20px;
+    }
+
+}
