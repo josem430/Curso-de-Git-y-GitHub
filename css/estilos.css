@@ -19,7 +19,6 @@ p{
 
 
 #container{
-    border: 1px solid black;
     width: 70%;
     margin: auto;
 }
@@ -27,17 +26,21 @@ p{
 #cabecera{
     display: grid;
     grid-template-columns: 50% 50%;
+    margin:30px;
 }
 
-#logo{
-    margin: auto;
+
+#logo img{
+    float: left;
 }
 
 #menu ul {
     display: flex;
     list-style: none;
     text-decoration: none;
-    margin: 30px;
+    margin: 0x;
+    width: 1005;
+    float: right;
 }
 
 
